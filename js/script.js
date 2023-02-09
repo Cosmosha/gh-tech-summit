@@ -23,5 +23,4 @@ const menuBar = document.querySelector('.fa-bars');
 menuBar.addEventListener('click', () => {
   mobileNav.classList.toggle('show-menu');
   menuBar.classList.toggle('fa-times');
- 
 });
