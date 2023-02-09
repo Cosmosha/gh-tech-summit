@@ -55,7 +55,7 @@
     <li><a href="https://w3.org/">CSS 3</a></li>
   </ul>
     <ul>
-    <li><a href="https://w3.org/">Javascropt</a></li>
+    <li><a href="https://w3.org/">Javascript</a></li>
   </ul>
 </details>
 
@@ -91,9 +91,9 @@
 - [Live Demo Link](https://cosmosha.github.io)
 
 
-## 🚀 Loom Intro <a name="live-demo"></a>
+## 🚀 Loom Intro Video <a name="live-demo"></a>
 
-- [Loom Intro]()
+- [Loom video link](https://www.loom.com/share/6124b8ad67674ea9bef2edccd550795b)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
