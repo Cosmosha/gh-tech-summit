@@ -79,7 +79,7 @@ header {
 
 .mobile-nav-links ul li a:hover {
   font-weight: 900;
-  color: rgba(245, 26, 48, 0.994);
+  color: #ec5242;
   transform: scale(1.1);
 }
 
@@ -117,7 +117,7 @@ header {
 .intro h3 {
   font-size: 12px;
   word-spacing: 3px;
-  color: red;
+  color: #ec5242;
   padding-bottom: 3px;
   letter-spacing: 2px;
 }
@@ -126,7 +126,7 @@ header {
   font-weight: 900;
   font-size: 28px;
   letter-spacing: 2px;
-  color: rgba(242, 40, 40, 100);
+  color: #ec5242;
   padding-bottom: 30px;
 }
 
@@ -138,7 +138,7 @@ header {
 }
 
 .venue {
-  color: #2726269c;
+  color: #272a31;
 }
 
 .venue h2 {
@@ -168,7 +168,7 @@ header {
   width: 15%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid red;
+  border: 1px solid #ec5242;
 }
 
 .event {
@@ -187,7 +187,7 @@ header {
 }
 
 .event h3 {
-  color: red;
+  color: #ec5242;
   font-size: 14px;
   text-align: center;
   padding: 5px 0 20px 0;
@@ -200,7 +200,7 @@ header {
 }
 
 .joinSubmit {
-  background: red;
+  background: #ec5242;
   padding: 18px;
 }
 
@@ -238,7 +238,7 @@ header {
 .speaker-info .profile {
   font-size: 13px;
   text-align: left;
-  color: red;
+  color: #ec5242;
   font-style: italic;
 }
 
@@ -250,6 +250,24 @@ header {
 .speaker-info p {
   font-size: 12px;
   text-align: left;
+}
+
+.moreBtn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.more {
+  border: 1px solid #272a31;
+  padding: 15px;
+  width: 100%;
+  color: #000;
+}
+
+.more i {
+  color: red;
 }
 
 .partners {
@@ -307,7 +325,7 @@ footer {
 .intro-about h3 {
   font-size: 20px;
   word-spacing: 2px;
-  color: red;
+  color: #ec5242;
   padding-bottom: 5px;
   letter-spacing: 1px;
   text-align: center;
@@ -330,11 +348,11 @@ footer {
   background: #fff;
   margin: 20px;
   line-height: 30px;
-  color: rgba(56, 20, 20, 0.765);
+  color: #272a31;
 }
 
 .reachout {
-  color: rgba(56, 20, 20, 0.765);
+  color: #272a31;
   line-height: 25px;
   font-size: 15px;
   margin-bottom: 15px;
@@ -357,7 +375,7 @@ footer {
   width: 10%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid red;
+  border: 1px solid #ec5242;
 }
 
 .about-title {
@@ -487,13 +505,13 @@ footer {
     padding: 10px;
     padding-left: 20px !important;
     font-weight: 700;
-    color: red;
+    color: #ec5242;
     margin-left: 30px;
     border: 3px solid rgba(199, 19, 19, 0.84);
   }
 
   .nav-desktop .nav-links .campaing-link a {
-    color: red;
+    color: #ec5242;
   }
 
   .headline {
@@ -509,7 +527,7 @@ footer {
   .intro h3 {
     font-size: 15px;
     word-spacing: 1px;
-    color: red;
+    color: #ec5242;
     margin-bottom: 10px;
     letter-spacing: 1px;
   }
@@ -546,7 +564,7 @@ footer {
     width: 8%;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid red;
+    border: 1px solid #ec5242;
   }
 
   .event-panel {
@@ -574,7 +592,7 @@ footer {
   }
 
   .event h3 {
-    color: red;
+    color: #ec5242;
     font-size: 14px;
     text-align: center;
     padding: 3px 0 0 0;
@@ -586,7 +604,8 @@ footer {
     text-align: left;
   }
 
-  .joinSubmit {
+  .joinSubmit,
+  .moreBtn {
     display: none;
   }
 
@@ -717,7 +736,7 @@ footer {
   .intro h3 {
     font-size: 20px;
     word-spacing: 1px;
-    color: red;
+    color: #ec5242;
     margin-bottom: 1px;
     letter-spacing: 1px;
   }
@@ -791,7 +810,7 @@ footer {
   .intro h3 {
     font-size: 25px;
     word-spacing: 1px;
-    color: red;
+    color: #ec5242;
     margin-bottom: 3px;
     letter-spacing: 1px;
   }
@@ -817,7 +836,7 @@ footer {
     width: 5% !important;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid red;
+    border: 1px solid #ec5242;
   }
 
   .intro-about {
@@ -829,7 +848,7 @@ footer {
     font-weight: 900;
     font-size: 37px;
     letter-spacing: 2px;
-    color: rgba(242, 40, 40, 100);
+    color: #ec5242;
     padding: 30px;
     text-align: center;
   }

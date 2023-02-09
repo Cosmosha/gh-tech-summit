@@ -1,8 +1,9 @@
 import speakers from './data.js';
 
 const speakerData = speakers;
+const speakerList = document.querySelector('.speaker');
 
-document.querySelector('.speaker').innerHTML = `<h3 class="event-title">Featured Speakers</h3>
+speakerList.innerHTML = `<h3 class="event-title">Featured Speakers</h3>
 <hr class="underliner">
 <div class="speaker-container">
 ${speakerData.map((speaker) => `<div class="speaker-panel">
@@ -13,14 +14,27 @@ ${speakerData.map((speaker) => `<div class="speaker-panel">
             <hr class="line">
             <p>${speaker.description}</p>
         </div>
-    </div>`).join('')}`;
+    </div>
+    `).join('')}
+    <div class="moreBtn">
+    <a href="#" class="more">MORE <i class="fa fa-angle-down"></i></a>
+</div>`;
 
 const mobileNav = document.querySelector('.mobile-nav-links');
 const menuBar = document.querySelector('.fa-bars');
 
-// ─── Event Listener ──────────────────────────────────────────────────────────
+// ─── Functions ───────────────────────────────────────────────────────
 
-menuBar.addEventListener('click', () => {
+function showMenu() {
   mobileNav.classList.toggle('show-menu');
   menuBar.classList.toggle('fa-times');
-});
+}
+
+// ─── Event Listener ──────────────────────────────────────────────────────────
+menuBar.addEventListener('click', showMenu);
+window.onload = speakerList;
+
+// menuBar.addEventListener('click', () => {
+//   mobileNav.classList.toggle('show-menu');
+//   menuBar.classList.toggle('fa-times');
+// });
