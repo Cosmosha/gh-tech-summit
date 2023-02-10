@@ -55,7 +55,7 @@
     <li><a href="https://w3.org/">CSS 3</a></li>
   </ul>
     <ul>
-    <li><a href="https://w3.org/">Javascropt</a></li>
+    <li><a href="https://w3.org/">Javascript</a></li>
   </ul>
 </details>
 
@@ -91,9 +91,7 @@
 - [Live Demo Link](https://cosmosha.github.io)
 
 
-## 🚀 Loom Intro <a name="live-demo"></a>
-
-- [Loom Intro]()
+- [Loom video link](https://loom.com/share/4c0236298609479884f93f0bfe4723d7)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,6 +189,7 @@ If you like this project call or visit us on facebookk...
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse Success Team.. 
+I would also like to thank Cindy Shin for this amazing design, almost everything was from the inspiration of her design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

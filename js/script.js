@@ -33,8 +33,3 @@ function showMenu() {
 // ─── Event Listener ──────────────────────────────────────────────────────────
 menuBar.addEventListener('click', showMenu);
 window.onload = speakerList;
-
-// menuBar.addEventListener('click', () => {
-//   mobileNav.classList.toggle('show-menu');
-//   menuBar.classList.toggle('fa-times');
-// });
